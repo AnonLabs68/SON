@@ -1,0 +1,6 @@
+{
+  "name": "Sovereign Octahedral Network (SON)",
+  "description": "A native C++ Solana trading OS with Oracle/Cortex intelligence, Quantum agentic browser, HexaField packets, and SON peer-assisted market-state backfill.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
