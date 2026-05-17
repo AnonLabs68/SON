@@ -19,7 +19,7 @@ import {
 import React, { ReactNode } from 'react';
 
 const PUBLIC_REPO_URL = 'https://github.com/AnonLabs68/SON-Public';
-const DEMO_URL = 'https://www.youtube.com/watch?v=BY_QhjYkN4M';
+const DEMO_URL = 'https://www.youtube.com/watch?v=BX_QhjYkN4M';
 const EMAIL = 'mailto:Chndrabhinav@gmail.com';
 const NetworkGlobe = React.lazy(() => import('./components/NetworkGlobe'));
 
@@ -254,12 +254,12 @@ export default function App() {
       <main id="top" className="relative pt-16">
         <section className="relative min-h-[92vh] overflow-hidden px-5 py-24 md:px-8 md:py-32">
           <div className="absolute inset-0 z-0">
-            <div className="absolute inset-0 bg-[radial-gradient(circle_at_68%_28%,rgba(0,245,255,0.16),transparent_34%),radial-gradient(circle_at_22%_80%,rgba(34,197,94,0.12),transparent_28%)]" />
-            <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.035)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.035)_1px,transparent_1px)] bg-[size:56px_56px] opacity-30" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_68%_28%,rgba(0,245,255,0.16),transparent_34%),radial-gradient(circle_at_22%_80%,rgba(34,197,94,0.12),transparent_28%)]" [...]
+            <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.035)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.035)_1px,transparent_1px)] bg-[[...]
           </div>
           <div className="relative z-10 mx-auto grid w-full max-w-7xl min-w-0 items-center gap-12 lg:grid-cols-[1.02fr_0.98fr]">
             <FadeIn className="min-w-0 max-w-[calc(100vw-40px)] sm:max-w-full">
-              <div className="mb-6 inline-flex items-center gap-2 border border-theme-border bg-white/[0.03] px-3 py-2 font-mono text-[11px] uppercase tracking-[0.18em] text-theme-text-secondary">
+              <div className="mb-6 inline-flex items-center gap-2 border border-theme-border bg-white/[0.03] px-3 py-2 font-mono text-[11px] uppercase tracking-[0.18em] text-theme-text-secondary"[...]
                 <BadgeCheck className="h-3.5 w-3.5 text-theme-accent" />
                 Grant-stage prototype from AnonLabs
               </div>
@@ -267,13 +267,13 @@ export default function App() {
                 The terminal is the node.
               </h1>
               <p className="mt-7 max-w-[320px] break-words text-base leading-7 text-theme-text-secondary sm:max-w-2xl sm:text-lg sm:leading-8 md:text-xl">
-                A native C++ Solana trading OS that fuses an institutional terminal, Oracle/Cortex intelligence, and a Quantum agentic browser with HexaField packets and SON peer market-state backfill.
+                A native C++ Solana trading OS that fuses an institutional terminal, Oracle/Cortex intelligence, and a Quantum agentic browser with HexaField packets and SON peer market-state bac[...]
               </p>
               <div className="mt-8 flex max-w-[320px] flex-col gap-3 sm:max-w-none sm:flex-row">
-                <a href={DEMO_URL} target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 bg-theme-accent px-5 py-3 font-semibold text-black transition-colors hover:bg-[#44fbff]">
+                <a href={DEMO_URL} target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 bg-theme-accent px-5 py-3 font-semibold text-black transition-colors h[...]
                   Watch live demo <ArrowRight className="h-4 w-4" />
                 </a>
-                <a href={PUBLIC_REPO_URL} target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 border border-theme-border bg-white/[0.03] px-5 py-3 font-semibold text-white transition-colors hover:bg-white/[0.06]">
+                <a href={PUBLIC_REPO_URL} target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 border border-theme-border bg-white/[0.03] px-5 py-3 font-semib[...]
                   Public proof repo <Github className="h-4 w-4" />
                 </a>
               </div>
@@ -350,7 +350,7 @@ export default function App() {
                 Active terminals should reduce load, not increase it.
               </h2>
               <p className="mt-5 text-lg leading-8 text-theme-text-secondary">
-                SON is designed so nodes share real observed market-state ranges with peers. Kinetic data separates hot live state from cold replayable ranges, allowing new terminals to recover without inventing synthetic history.
+                SON is designed so nodes share real observed market-state ranges with peers. Kinetic data separates hot live state from cold replayable ranges, allowing new terminals to recover w[...]
               </p>
               <div className="mt-8 grid gap-3">
                 {architecture.map((item) => (
@@ -448,10 +448,10 @@ export default function App() {
               The first proof is not a giant mainnet claim. It is a native workstation, a measured SON state path, Kinetic recovery, and Solana-verifiable identity events.
             </p>
             <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-              <a href={PUBLIC_REPO_URL} target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 bg-theme-accent px-5 py-3 font-semibold text-black transition-colors hover:bg-[#44fbff]">
+              <a href={PUBLIC_REPO_URL} target="_blank" rel="noreferrer" className="inline-flex items-center justify-center gap-2 bg-theme-accent px-5 py-3 font-semibold text-black transition-col[...]
                 Review proof repo <ArrowRight className="h-4 w-4" />
               </a>
-              <a href={EMAIL} className="inline-flex items-center justify-center gap-2 border border-theme-border bg-white/[0.03] px-5 py-3 font-semibold text-white transition-colors hover:bg-white/[0.06]">
+              <a href={EMAIL} className="inline-flex items-center justify-center gap-2 border border-theme-border bg-white/[0.03] px-5 py-3 font-semibold text-white transition-colors hover:bg-whi[...]
                 Contact AnonLabs
               </a>
             </div>
