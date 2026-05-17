@@ -19,8 +19,8 @@ npm run build
 
 - Public proof repo: https://github.com/AnonLabs68/SON-Public
 - Website: https://sovereignoctahedral.online/
-- Demo video: https://www.youtube.com/watch?v=BY_QhjYkN4M
+- Demo video: https://www.youtube.com/watch?v=BX_QhjYkN4M
 
 ## Positioning
 
-Sovereign is a native C++ Solana trading OS that fuses an institutional terminal, Oracle/Cortex market intelligence, Quantum agentic browser, HexaField packets, Kinetic hot/cold state, and SON peer-assisted real market-state backfill.
+Sovereign is a native C++ Solana trading OS that fuses an institutional terminal, Oracle/Cortex market intelligence, Quantum agentic browser, HexaField packets, Kinetic hot/cold state, and SON pee[...]
