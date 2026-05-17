@@ -19,7 +19,7 @@ npm run build
 
 - Public proof repo: https://github.com/AnonLabs68/SON-Public
 - Website: https://sovereignoctahedral.online/
-- Demo video: https://www.youtube.com/watch?v=BX_QhjYkN4M
+- Demo video: https://www.youtube.com/watch?v=BX_QbiYKN4M
 
 ## Positioning
 
