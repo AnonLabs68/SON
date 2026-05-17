@@ -19,7 +19,7 @@ import {
 import React, { ReactNode } from 'react';
 
 const PUBLIC_REPO_URL = 'https://github.com/AnonLabs68/SON-Public';
-const DEMO_URL = 'https://www.youtube.com/watch?v=BX_QhjYkN4M';
+const DEMO_URL = 'https://www.youtube.com/watch?v=BX_QbiYKN4M';
 const EMAIL = 'mailto:Chndrabhinav@gmail.com';
 const NetworkGlobe = React.lazy(() => import('./components/NetworkGlobe'));
 
